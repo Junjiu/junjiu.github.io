@@ -8,10 +8,10 @@
   <meta name="description" content="">
   <meta name="author" content="John Doe">
   <!-- Open Graph Data -->
-  <meta property="og:title" content="Hexo"/>
+  <meta property="og:title" content="Magic Card"/>
   <meta property="og:description" content="" />
   <meta property="og:site_name" content="Hexo"/>
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="article" />
   <meta property="og:image" content="http://yoursite.com"/>
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -35,8 +35,7 @@
 </head>
 
   <body>
-    <!-- Archive Header -->
-<!-- Page Header -->
+    <!-- Page Header -->
 
 
 <header class="site-header header-background" style="background-image: url(/img/default-banner-dark.jpg)">
@@ -44,7 +43,7 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="page-title with-background-image">
-          <p class="title">Blog Archives</p>
+          <p class="title">Magic Card</p>
           <p class="subtitle"></p>
         </div>
         <div class="site-menu with-background-image">
@@ -89,50 +88,46 @@
   </div>
 </header>
 
-<!-- Archive List -->
-<div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      
-        <div class="archive-item">
-  <a href="/2017/09/01/Event-Master/" class="post-title">
-    Event Master
-  </a>
-  <div class="date text-muted">Posted on 2017-09-01 00:00:00</div>
-</div>
+<article>
+  <div class="container typo">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-info text-muted">
+          
+            <!-- Author -->
+            <span class="author info">By John Doe</span>
+          
+          <!-- Date -->
+          <span class="date-time info">On
+            <span class="date">2017-05-01</span>
+            <span class="time">00:10:40</span>
+          </span>
+          
+        </div>
+        <!-- Tags -->
+        
+          <div class="post-tags text-muted">
+            Tags: 
 
-      
-        <div class="archive-item">
-  <a href="/2017/05/01/Magic-Card/" class="post-title">
-    Magic Card
-  </a>
-  <div class="date text-muted">Posted on 2017-05-01 00:00:00</div>
-</div>
+<a class="tag" href="/tags/Game/">#Game</a>
 
-      
-        <div class="archive-item">
-  <a href="/2016/05/01/User-Behavior-Analysis/" class="post-title">
-    User Behavior Analysis
-  </a>
-  <div class="date text-muted">Posted on 2016-05-01 00:00:00</div>
-</div>
 
-      
+          </div>
+        
+        <!-- Post Main Content -->
+        <div class="post-content">
+          <p>Developed a web based card game.</p>
+<ul>
+<li>Implement backend by Node.js, utilized middleware including express, passport.js, eventproxy and etc.</li>
+<li>Designed MySQL table to store users, decks, cards information, and created APIs for database.<a id="more"></a> 
+This is the rest of the post. You can get it with &lt;%- post.more %&gt;</li>
+</ul>
 
+        </div>
+      </div>
     </div>
   </div>
-</div>
-<!-- Pagination -->
-<div class="container">
-  <div class="row">
-    <div class="col-lg-10 col-md-10 col-md-offset-1">
-      <ul class="pagination">
-          
-          
-      </ul>
-    </div>
-  </div>
-</div>
+</article>
 
 
 
